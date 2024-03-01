@@ -96,7 +96,7 @@ nav ul li:hover {
 }
 
 .page-content header {
-    margin-top: 5%;
+    margin-top: 15vh;
 }
 
 h1 {
@@ -122,20 +122,6 @@ h1 {
     animation: fadeInLeft 2s;
 }
 
-.page-content .logos {
-    height: auto;
-    text-align: center;
-    justify-content: space-between;
-}
-
-
-.page-content .logos img {
-    max-width: 3em;
-    margin: 25px 50px 25px 50px;
-    animation-iteration-count: infinite;
-    animation-duration: inherit;
-    animation-timing-function: ease-in-out;
-}
 
 .page-content .projects-logos img {
     max-width: 2em;
@@ -144,36 +130,6 @@ h1 {
 
 .page-content .invert {
     filter: invert(1);
-}
-
-.page-content .logos #JAVA {
-    animation: fadeInUp 5s ease 2s, floatingJAVA 30s infinite;
-    animation-fill-mode: both;
-}
-
-.page-content .logos #PHP {
-    animation: fadeInUp 5s ease 2.5s, floatingPHP 30s infinite;
-    animation-fill-mode: both;
-}
-
-.page-content .logos #JS {
-    max-width: 2.3em;
-    animation: fadeInUp 5s ease 3s, floatingJS 30s infinite;
-    animation-fill-mode: both;
-}
-
-.page-content .projects-logos #JS {
-    max-width: 1.8em;
-}
-
-.page-content .logos #HTML {
-    animation: fadeInUp 5s ease 3.5s, floatingHTML 30s infinite;
-    animation-fill-mode: both;
-}
-
-.page-content .logos #CSS {
-    animation: fadeInUp 5s ease 4s, floatingCSS 30s infinite;
-    animation-fill-mode: both;
 }
 
 .page-content .projects-section {
@@ -277,7 +233,7 @@ span.underline {
     height: 60px;
     font-size: 25px;
     border-radius: 50px;
-    margin: 25px 0 40px 0;
+    margin: 40px 0;
     line-height: 60px;
     -webkit-animation: fadeInUp 1.5s ease 1s normal;
     -moz-animation: fadeInUp 1.5s ease 1s normal;
